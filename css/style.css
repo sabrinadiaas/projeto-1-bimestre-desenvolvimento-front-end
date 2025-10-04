@@ -203,6 +203,20 @@ section h2 {
   margin-bottom: 5px;
 }
 
+footer {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px; /* Adiciona um espaço acima do rodapé */
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: var(--cor-branca);
+}
+
 @media (min-width: 48rem) { /* 768px */
   .top-bar {
     flex-direction: row;
