@@ -80,12 +80,6 @@ nav ul {
   list-style: none;
 }
 
-.books {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
 nav ul li a {
   display: flex;
   align-items: center;
@@ -94,9 +88,12 @@ nav ul li a {
   text-decoration: none;
 }
 
-header nav a:hover,
+header nav a:hover{
+    color: var(--cor-preta);
+}
+
 header nav a:focus {
-  color: var(--cor-secundaria);
+  color: var(--cor-preta);
   outline: 2px solid var(--cor-terciaria);
 }
 
@@ -201,6 +198,12 @@ section h2 {
   color: var(--cor-secundaria);
   margin-top: 15px;
   margin-bottom: 5px;
+}
+
+.books {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 footer {
