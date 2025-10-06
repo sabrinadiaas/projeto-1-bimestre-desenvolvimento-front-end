@@ -88,13 +88,11 @@ nav ul li a {
   text-decoration: none;
 }
 
-header nav a:hover{
-    color: var(--cor-preta);
-}
-
+header nav a:hover, 
 header nav a:focus {
-  color: var(--cor-preta);
-  outline: 2px solid var(--cor-terciaria);
+  background-color: var(--cor-secundaria);
+  border-radius: 10px;
+  padding: 3px;
 }
 
 header nav a img {
